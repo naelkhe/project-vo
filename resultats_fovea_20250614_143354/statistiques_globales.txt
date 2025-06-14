@@ -1,0 +1,18 @@
+STATISTIQUES GLOBALES - DÉPRESSION FOVÉOLAIRE
+==================================================
+
+Nombre de séries analysées: 4
+
+PROFONDEUR FOVÉOLAIRE:
+  Moyenne: 399.2 μm
+  Écart-type: 420.2 μm
+  Min-Max: 96.0 - 1115.3 μm
+
+LARGEUR FOVÉOLAIRE:
+  Moyenne: 3.83 mm
+  Écart-type: 3.49 mm
+  Min-Max: 0.50 - 9.28 mm
+
+QUALITÉ DES AJUSTEMENTS:
+  R² moyen: 0.285
+  R² minimum: 0.026

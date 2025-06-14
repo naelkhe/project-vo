@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "series_name": "07_TIM_OD",
+    "date_analysis": "2025-06-14T14:34:59.591047",
+    "pixel_resolution_um": 3.9,
+    "status": "SUCCESS"
+  },
+  "mathematical_model": {
+    "type": "Gaussian_2D_Surface",
+    "equation": "Z(x,y) = A * exp(-((x-x0)²/(2σx²) + (y-y0)²/(2σy²))) + Z0",
+    "parameters": {
+      "amplitude_um": 102.77159267113771,
+      "center_x_mm": -1.2490688151527845,
+      "center_y_mm": 1.2589570134586774,
+      "sigma_x_mm": 0.2797113217747593,
+      "sigma_y_mm": 0.6465954064420874,
+      "offset_um": -127.41024851894115
+    },
+    "parameter_errors": [
+      4.936970053839559,
+      0.014927131374663593,
+      0.0647591912468644,
+      0.016916712292127104,
+      0.060221226756705395,
+      0.8078428917637344
+    ],
+    "quality_metrics": {
+      "r_squared": 0.18073429135298802,
+      "mse": 1862.994137563942
+    }
+  },
+  "clinical_parameters": {
+    "foveal_depth_um": 102.77159267113771,
+    "foveal_width_mm": 1.0906428257260332
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "metadata": {
+    "series_name": "05_MIG_OD",
+    "date_analysis": "2025-06-14T14:35:20.630699",
+    "pixel_resolution_um": 3.9,
+    "status": "FAILED"
+  },
+  "processing_summary": {
+    "scans_processed": 24,
+    "segmentation_success": true,
+    "3d_reconstruction": true,
+    "gaussian_fitting": false
+  },
+  "error_details": {
+    "error_message": "Optimal parameters not found: The maximum number of function evaluations is exceeded.",
+    "stage_failed": "Gaussian model fitting"
+  }
+}

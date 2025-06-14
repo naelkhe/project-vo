@@ -1,0 +1,13 @@
+RAPPORT D'ANALYSE OCT - ÉCHEC MODÉLISATION
+==================================================
+
+Série: 05_MIG_OD
+Date: 2025-06-14 14:35:20
+
+RÉSUMÉ:
+  Scans traités: 24
+  Segmentation: ✅
+  Reconstruction 3D: ✅
+  Modèle gaussien: ❌
+
+ERREUR: Optimal parameters not found: The maximum number of function evaluations is exceeded.

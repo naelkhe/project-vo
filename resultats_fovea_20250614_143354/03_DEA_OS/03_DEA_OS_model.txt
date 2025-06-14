@@ -1,0 +1,24 @@
+MODÈLE MATHÉMATIQUE DE LA DÉPRESSION FOVÉOLAIRE
+============================================================
+
+Série: 03_DEA_OS
+Date d'analyse: 2025-06-14 14:34:26
+
+ÉQUATION DU MODÈLE:
+Z(x,y) = A * exp(-((x-x0)²/(2σx²) + (y-y0)²/(2σy²))) + Z0
+
+PARAMÈTRES:
+  Amplitude (A): -282.79 μm
+  Centre X (x0): 0.695 mm
+  Centre Y (y0): -0.326 mm
+  Largeur X (σx): 1.800 mm
+  Largeur Y (σy): 1.988 mm
+  Offset (Z0): 72.00 μm
+
+QUALITÉ DE L'AJUSTEMENT:
+  Coefficient de détermination (R²): 0.4618
+  Erreur quadratique moyenne (MSE): 2292.97
+
+PARAMÈTRES CLINIQUES:
+  Profondeur fovéolaire: 282.8 μm
+  Largeur fovéolaire: 4.46 mm

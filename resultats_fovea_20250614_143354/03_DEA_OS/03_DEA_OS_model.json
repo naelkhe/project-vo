@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "series_name": "03_DEA_OS",
+    "date_analysis": "2025-06-14T14:34:26.444363",
+    "pixel_resolution_um": 3.9,
+    "status": "SUCCESS"
+  },
+  "mathematical_model": {
+    "type": "Gaussian_2D_Surface",
+    "equation": "Z(x,y) = A * exp(-((x-x0)²/(2σx²) + (y-y0)²/(2σy²))) + Z0",
+    "parameters": {
+      "amplitude_um": -282.786114607559,
+      "center_x_mm": 0.6950888373732814,
+      "center_y_mm": -0.3256242758731399,
+      "sigma_x_mm": 1.799752681455002,
+      "sigma_y_mm": 1.9884588834603651,
+      "offset_um": 72.00134189036571
+    },
+    "parameter_errors": [
+      36.844939910837724,
+      0.031558726966215186,
+      0.02392886276685031,
+      0.1829572676563161,
+      0.1809038451927889,
+      37.91629085165571
+    ],
+    "quality_metrics": {
+      "r_squared": 0.4617874510947506,
+      "mse": 2292.9702030845983
+    }
+  },
+  "clinical_parameters": {
+    "foveal_depth_um": 282.786114607559,
+    "foveal_width_mm": 4.460278263940384
+  }
+}

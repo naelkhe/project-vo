@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "series_name": "01_CAB_OD",
+    "date_analysis": "2025-06-14T14:34:46.775495",
+    "pixel_resolution_um": 3.9,
+    "status": "SUCCESS"
+  },
+  "mathematical_model": {
+    "type": "Gaussian_2D_Surface",
+    "equation": "Z(x,y) = A * exp(-((x-x0)²/(2σx²) + (y-y0)²/(2σy²))) + Z0",
+    "parameters": {
+      "amplitude_um": 95.97923340758301,
+      "center_x_mm": -2.2599374175155664,
+      "center_y_mm": -2.236871725702366,
+      "sigma_x_mm": 0.2208233156617886,
+      "sigma_y_mm": 0.20582617995796063,
+      "offset_um": -146.58290920320158
+    },
+    "parameter_errors": [
+      17.36708699218811,
+      0.10282595752380162,
+      0.07882936805728388,
+      0.08819919603558249,
+      0.07431354584674368,
+      0.8487352819156545
+    ],
+    "quality_metrics": {
+      "r_squared": 0.025895183267998445,
+      "mse": 2537.5401020054924
+    }
+  },
+  "clinical_parameters": {
+    "foveal_depth_um": 95.97923340758301,
+    "foveal_width_mm": 0.5023413922438648
+  }
+}
